@@ -347,7 +347,7 @@ body{
 }
 
 .home .row .content h3{
-  color: black;
+  color: var(--dark-color);
   font-size: 3rem;
   line-height: 2;
   padding:1rem 0;
@@ -519,6 +519,9 @@ swiper-button-next:hover,
   border-radius: .5rem;
   text-transform: none;
 }
+.subscribe-btn {
+  font-size: 1.3rem;
+}
 
 
 .arrivals .arrivals-slider .box{
@@ -602,7 +605,7 @@ swiper-button-next:hover,
   line-height: 2;
   padding:1rem 0;
 }
-.shop-now {
+.shop-btn {
   color: black;
   background-color : var(--green);
   font-size: 1.3rem;
@@ -641,7 +644,7 @@ swiper-button-next:hover,
 
 .reviews .reviews-slider .box p{
   color: var(--light-color);
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   text-transform: none;
   padding:1rem 0;
   line-height: 2;
@@ -800,7 +803,7 @@ swiper-button-next:hover,
 .line {
   text-align: center;
   font-size: 1.2rem;
-  color:  #c87e4f;
+  color: #cc8963;
 }
 
 
