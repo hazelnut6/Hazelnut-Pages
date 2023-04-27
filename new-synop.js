@@ -46,7 +46,8 @@ function addToCart(event) {
     <td><input type="number" class="num" value="1"></td>
     <td class="total-price"><h3>${itemPrice}</h3></td>
     <td>
-        <button class="btn remove-btn">Remove</button>
+        <button class="btn remove-btn">Remove</button><br>
+        <button class="btn checkout-btn">Checkout</button>
     </td>`
     mainContainer.append(itemContainer);
 

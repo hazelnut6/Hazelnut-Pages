@@ -461,7 +461,12 @@ body{
   .remove-btn:hover{
     color: white;
   }
-
+  .checkout-btn{
+    font-size: 1.1rem;
+  }
+  .checkout-btn:hover{
+    color: white;
+  }
   /* addtocart */
 
 
